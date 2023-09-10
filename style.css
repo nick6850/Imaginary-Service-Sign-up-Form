@@ -1,0 +1,13 @@
+*{
+    box-sizing: content-box;
+}
+
+main {
+    display: flex;
+}
+
+.logo-section {
+    height: 100vh;
+    width: 30vw;
+    background-color: pink;
+}
