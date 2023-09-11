@@ -10,21 +10,61 @@ main {
     font-family: 'Signika', sans-serif;
 }
 
-.logo-section {
+
+.left-section {
     height: 100vh;
     width: 30vw;
     background-color: pink;
-    font-size: 2em;
 }
 
-.form-section{
-    height: 100vh;
-    width: 70vw;
+.logo-section {
+    margin-top: 30vh;
+    background-color: rgba(0, 0, 0, 0.144);
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    align-items: center;
 }
+
 
 #logo {
-    height: 150px;
-    width: 150px;
-    border: 1px solid blue;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
+    flex: 0 0 auto;
+    margin: 10px;
+}
+
+#brand-name {
+    color: white;
+    font-size: 3vw;
+    text-shadow: 0 0 1px black;
+}
+
+
+.form-section {
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10vw;
+}
+
+form {
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    justify-content: center;
+}
+
+form > div {
+    flex-basis: calc(100% / 2);
+}
+
+
+label {
+    display: block;
 }
